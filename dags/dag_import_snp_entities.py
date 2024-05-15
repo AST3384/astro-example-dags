@@ -25,7 +25,7 @@ cnx_snow_dsa_stage = 'snow_conn_test' #"cnx_snow_dsa_stage"
 cnx_snow_dsa_bloomberg = "cnx_snow_dsa_bloomberg"
 
 default_args={
-    'email': ['pablo.diaz@moelis.com;ameya.thakur@moelis.com;Chris.Johnson@moelis.com'],
+    'email': ['pablo.diaz@moelis.com','ameya.thakur@moelis.com','Chris.Johnson@moelis.com'],
     'email_on_failure': True,
     "snowflake_conn_id": cnx_snow_dsa_stage,
     "retries": 1,
