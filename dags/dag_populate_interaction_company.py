@@ -14,7 +14,7 @@ snowflake_conn_id = "snow_devtest"
 snowflake_sp = "ODS.META_DATA.POPULATE_INTERACTION_COMPANY_ASTRO"
 
 default_args={
-    'email': ['pablo.diaz@moelis.com;ameya.thakur@moelis.com;Chris.Johnson@moelis.com'],
+    'email': ['pablo.diaz@moelis.com','ameya.thakur@moelis.com','Chris.Johnson@moelis.com'],
     'email_on_failure': True,
     "snowflake_conn_id": snowflake_conn_id,
     "retries": 1,
